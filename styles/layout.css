@@ -1,0 +1,29 @@
+.container-principal {
+    display: grid;
+    grid-template-columns: 51.25% 48.75%;
+    height: 100vh;
+    
+    /* oculta conteúdo transbordado */
+    overflow: hidden;
+}
+
+main {
+    padding: 64px;
+    justify-self: end;
+    /*rolagem quando conteúdo transbordar */
+    overflow: auto;
+
+    & .container-main {
+        max-width: 656px;
+    }
+}
+
+header {
+    padding: 64px;
+    background-color: var(--surface-secondary);
+    height: 100vh;
+
+    & .container-header {
+        max-width: 624px;
+    }
+}

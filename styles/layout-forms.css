@@ -1,0 +1,97 @@
+form {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset {
+    font: var(--text-fieldset);
+    color: var(--text-primary);
+    border: none;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font: var(--text-sm);
+}
+
+input,
+select {
+    font: var(--text);
+    border-radius: 8px;
+    height: 48px;
+    padding: 12px 16px;
+    border: solid 1px var(--stroke-default);
+}
+
+textarea {
+    resize: vertical;
+    font: var(--text);
+    border-radius: 8px;
+    min-height: 120px;
+    padding: 12px 16px;
+    border: solid 1px var(--stroke-default);
+}
+
+input:hover, select:hover, textarea:hover {
+    border-color: #F3541C;
+}
+
+#checkbox {
+    height: 19px;
+    width: 19px;
+}
+
+#check {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+#termos {
+    font: var(--text);
+    color: var(--text-primary);
+
+    & strong {
+        color: var(--text-highlight);
+        font: 500 16px/1.5 var(--font-family);
+    }
+}
+.botoes {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 16px;
+}
+
+#salvar {
+    color: var(--text-highlight);
+    background-color: #ffffff00;
+    border: solid 1px var(--text-highlight);
+}
+#salvar:hover {
+    cursor: pointer;
+    color: #F3541C;
+    background-color: #ffffff00;
+    border: solid 1px #F3541C;
+}
+#matricular {
+    color: #ffffff;
+    background-color: var(--text-highlight);
+    border: solid 1px var(--text-highlight);
+}
+#matricular:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #F3541C;
+    border: solid 1px #F3541C;
+}

@@ -1,0 +1,33 @@
+.container-header {
+    height: 100%;
+    font: var(--text);
+    color: var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    gap:8px;
+
+    & .logo {
+        display: flex;
+        align-items: center;
+        color: var(--text-primary);
+        font: var(--text-logo);
+    }
+
+    & h1 {
+        color: var(--text-primary);
+        font: var(--text-xl);
+
+        & strong {
+            color: var(--text-highlight);
+            font: inherit;
+        }
+    }
+
+    & > img {
+        height: 300px;
+    }
+}
+
+   

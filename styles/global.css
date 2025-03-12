@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-logo: "Schoolbell", cursive;
+    --text-logo: 400 20px/1.0 var(--font-logo);
+    --text-fieldset: 600 16px/1.25 var(--font-family);
+
+    --font-family: 'Poppins', san-serif;
+    --text: 400 16px/1.5 var(--font-family);
+    --text-sm: 400 14px/1.4 var(--font-family);
+    --text-lg: 600 24px/1.25 var(--font-family);
+    --text-xl: 600 40px/1.25 var(--font-family);
+    
+    --text-primary: #292524;
+    --text-secondary: #57534E;
+    --text-tertiary: #8F8881;
+    --text-highlight: #E43A12;
+
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #FEE7D6;
+    --surface-disabled: #E7E5E4;
+
+    --stroke-default: #D6D3D1;
+    --stroke-highlight: #F3541C;
+    --semantic-error: #DC2626;
+}
