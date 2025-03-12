@@ -50,7 +50,7 @@ textarea {
         position: relative;
         border: 1px dashed var(--stroke-default);
     }
-
+}
 
 input:hover, select:hover, textarea:hover {
     border-color: #F3541C;
